@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static vs Relative vs Absolute Positioning</title>
+    <style>
+        .div1 {
+            background-color: #e74c3c;
+            position: static; 
+            width: 100px;
+            height: 100px;
+        }
+        
+        .div2 {
+            background-color: #3498db;
+            position: relative;
+            left: 20px;
+            top: 30px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .div3 {
+            background-color: #2ecc71;
+            width: 100px;
+            height: 100px;
+            position: relative; 
+        }
+        .absolute-child {
+            background-color: yellow;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+        <div class="div-box div1">Div 1 (Static)</div>
+        <div class="div-box div2">Div 2 (Relative)</div>
+        <div class="div-box div3">
+            Div 3 (Static parent)
+            <div class="absolute-child">Div 4 (Absolute Child)</div>
+        </div>
+</body>
+</html>

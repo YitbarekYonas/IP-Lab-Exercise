@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 Card Layout - Flexbox</title>
+
+    <style>
+        .card-container {
+            display: flex;
+            justify-content: center;  
+            align-items: center;      
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f3f577;
+            height: 100vh;
+        }
+
+        .card {
+            width: 250px;
+            height: 350px;
+            background: rgb(146, 124, 245);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(88, 231, 124, 0.2);
+
+            display: flex;
+            flex-direction: column;      
+            justify-content: center;     
+            align-items: center;         
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            margin: 10px 0;
+            font-size: 1.3rem;
+            color:#bcdf6b;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #bcdf6b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
+
+            <h2>Cristiano Ronaldo (CR7)</h2>
+
+            <p>
+                • 5× Ballon d’Or<br>
+                • 5× UEFA Champions League<br>
+                • All-time top scorer for Portugal<br>
+                • 800+ career goals<br>
+                • Euro 2016 Champion
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
