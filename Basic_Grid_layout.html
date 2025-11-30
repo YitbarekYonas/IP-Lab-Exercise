@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Technologies Grid</title>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);  
+      gap: 20px;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid-item {
+      background: #f7f7f7;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    }
+
+    .grid-item img {
+      width: 120px;
+      margin-top: 10px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <div class="grid-item">
+      <h3>HTML</h3>
+      <p>The structure of the web.</p>
+      <img src="https://via.placeholder.com/120?text=HTML" alt="HTML">
+    </div>
+
+    <div class="grid-item">
+      <h3>CSS</h3>
+      <p>The styling language for the web.</p>
+      <img src="https://via.placeholder.com/120?text=CSS" alt="CSS">
+    </div>
+
+    <div class="grid-item">
+      <h3>JavaScript</h3>
+      <p>The programming language of the browser.</p>
+      <img src="https://via.placeholder.com/120?text=JS" alt="JavaScript">
+    </div>
+
+    <div class="grid-item">
+      <h3>React</h3>
+      <p>A JavaScript library for building UIs.</p>
+      <img src="https://via.placeholder.com/120?text=React" alt="React">
+    </div>
+
+    <div class="grid-item">
+      <h3>Node.js</h3>
+      <p>server-side JavaScript runtime.</p>
+      <img src="https://via.placeholder.com/120?text=Node.js" alt="Node.js">
+    </div>
+
+    <div class="grid-item">
+      <h3>MongoDB</h3>
+      <p>A NoSQL document-oriented database.</p>
+      <img src="https://via.placeholder.com/120?text=MongoDB" alt="MongoDB">
+    </div>
+
+  </div>
+
+</body>
+</html>
