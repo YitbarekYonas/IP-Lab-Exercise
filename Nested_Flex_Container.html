@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Flex Containers</title>
+</head>
+<body style="margin:0; font-family:Arial, sans-serif;">
+
+  <header 
+    style="
+      width:100%;
+      background:#333;
+      color:white;
+      padding:20px;
+      text-align:center;
+    "
+  >
+    <h1 style="margin:0;">Header</h1>
+  </header>
+
+  <main 
+    style="
+      display:flex;
+      justify-content:center;
+      background:#f4f4f4;
+      padding:20px;
+    "
+  >
+    <div 
+      style="
+        display:flex;
+        flex-wrap:wrap;     
+        gap:20px;
+        width:100%;
+        max-width:1200px;
+      "
+    >
+
+      <section 
+        style="
+          flex:1;
+          min-width:280px;  /* forces responsive stacking */
+          background:white;
+          padding:20px;
+          border-radius:8px;
+          box-shadow:0 0 5px rgba(0,0,0,0.1);
+        "
+      >
+        <h2 style="margin-top:0;">Left Column</h2>
+        <p>This column adjusts automatically based on screen size.</p>
+      </section>
+
+      <section 
+        style="
+          flex:1;
+          min-width:280px;
+          background:white;
+          padding:20px;
+          border-radius:8px;
+          box-shadow:0 0 5px rgba(0,0,0,0.1);
+        "
+      >
+        <h2 style="margin-top:0;">Right Column</h2>
+        <p>This column also stacks under the left on smaller screens.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer 
+    style="
+      width:100%;
+      background:#333;
+      color:white;
+      padding:20px;
+      text-align:center;
+    "
+  >
+    <p style="margin:0;">Footer</p>
+  </footer>
+
+</body>
+</html>
