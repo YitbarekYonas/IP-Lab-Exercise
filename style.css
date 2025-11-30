@@ -1,0 +1,13 @@
+html{
+    background-color:rgb(245, 245, 245);
+}
+h1,.landmark-title,figcaption{
+    color:rgb(33, 33, 33);
+}
+img{
+    flex-direction:column;
+    width:400px;
+    height:400px;
+    float: left;
+    
+}
