@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.external-box {
+    background-color: #d1ffd1;
+    padding: 15px;
+    border: 2px solid green;
+    width: 300px;
+    border-radius: 6px;
+}
