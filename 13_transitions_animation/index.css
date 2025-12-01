@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.product-card {
+    width: 250px;
+    padding: 20px;
+    background: lightpink;
+    border-radius: 8px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    transition: transform 0.3s; 
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
