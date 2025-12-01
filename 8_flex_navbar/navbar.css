@@ -1,0 +1,37 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+}
