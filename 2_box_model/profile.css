@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid #444;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
