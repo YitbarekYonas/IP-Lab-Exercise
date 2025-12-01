@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 350px;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ), url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    
+    background-size: cover;
+    background-position: center;
+
+
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
